@@ -1,6 +1,7 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 import { Logger } from "./logger";
+// import { Logger } from "";
 import { Redis } from "@upstash/redis";
 
 const logger = new Logger("scraper");

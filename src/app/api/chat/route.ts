@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
-import { getGroqResponse } from "@/app/utils/groqClient";
-import { scrapeURL, urlPattern } from "@/app/utils/scraper";
+import { getGroqResponse } from "../../utils/groqClient";
+import { scrapeURL, urlPattern } from "../../utils/scraper";
+// import { getGroqResponse } from "@/app/utils/groqClient";
+// import { getGroqResponse } from "@/app/utils/groqClient";
+// import { scrapeURL, urlPattern } from "@/app/utils/scraper";
 // TODO: Implement the chat API with Groq and web scraping with Cheerio and Puppeteer
 // Refer to the Next.js Docs on how to read the Request body: https://nextjs.org/docs/app/building-your-application/routing/route-handlers
 // Refer to the Groq SDK here on how to use an LLM: https://www.npmjs.com/package/groq-sdk
